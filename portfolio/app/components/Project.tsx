@@ -47,7 +47,7 @@ export default function Project() {
             background: "bg-yellow-500",
         },
         {
-            Link: "http://localhost:3000",
+            Link: "https://shefaliportfolio.vercel.app/",
             title: "Portfolio App",
             tech: [SiNextdotjs, FaReact, SiTailwindcss],
             cover: '/portfolio.png',
