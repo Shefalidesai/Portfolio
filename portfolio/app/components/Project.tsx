@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { SiAngular, SiAntdesign, SiApifox, SiDjango, SiGraphql, SiJupyter, SiMongodb, SiNextdotjs, SiNodedotjs, SiPycharm, SiPython, SiReactquery, SiSupabase, SiTailwindcss } from 'react-icons/si';
+import { SiAngular, SiAntdesign, SiApifox, SiDjango, SiGraphql, SiJupyter, SiMongodb, SiNextdotjs, SiNodedotjs, SiPycharm, SiPython, SiReactquery, SiSpring, SiSupabase, SiTailwindcss } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
@@ -11,10 +11,17 @@ import { FaReact } from "react-icons/fa6";
 export default function Project() {
     const projects = [
         {
+            Link: "https://www.youtube.com/watch?v=4iNiYJMUqO4",
+            title: "Home Rental App",
+            tech: [ SiAngular, SiAntdesign, SiSpring, SiThealgorithms],
+            cover: '/home.jpeg',
+            background: "bg-purple-500",
+        },
+        {
             Link: "https://huffman-compressor.netlify.app/",
             title: "Compressor App",
             tech: [ SiReactquery, SiAntdesign, SiTailwindcss, SiThealgorithms],
-            cover: '/compressor.jpeg',
+            cover: '/compressor.png',
             background: "bg-purple-500",
         },
         
